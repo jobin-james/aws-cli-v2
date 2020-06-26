@@ -1,5 +1,5 @@
 FROM alpine:latest
-
+ENV GLIBC_VER=2.31-r0
 MAINTAINER Jobin James <jobinjames47@gmail.com>
 
 RUN curl -sL https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub -o /etc/apk/keys/sgerrand.rsa.pub \
