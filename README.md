@@ -9,9 +9,11 @@ How to Use
 
 aws-cli/2.0.26 Python/3.7.3 Linux/4.9.125-linuxkit botocore/2.0.0dev30
 
-`usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+```
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
 To see help text, you can run:
 
   aws help
   aws <command> help
-  aws <command> <subcommand> help`
+  aws <command> <subcommand> help
+```
